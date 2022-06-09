@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+input{
+    width: 100%; /* LARGURA */
+    height: 100%; /* ALTURA */
+    box-sizing: border-box;
+}
+
+form{
+    width: 40%;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 82, 0);
+}
