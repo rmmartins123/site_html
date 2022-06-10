@@ -17,7 +17,7 @@ input{
     box-sizing: border-box;
 }
 
-form{
+#form{
     width: 40%;
 }
 
@@ -34,4 +34,8 @@ button{
 button:hover{
     cursor: pointer;
     background-color: rgb(0, 82, 0);
+}
+
+h3{
+    color: coral;
 }
